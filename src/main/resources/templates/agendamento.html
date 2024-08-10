@@ -21,34 +21,34 @@
                 
                 <div class="form-group col-sm-4 mt-1">
                     <label for="nome_pet">Nome:</label>
-                    <input type="text" id="nome_pet" class="form-control" th:field="${agendar.nome_pet}" />
+                    <input type="text" id="nome_pet" class="form-control" th:required="required" th:field="${agendar.nome_pet}" />
                 </div>
 
                 <div class="form-group col-sm-4 mt-1">
                     <label for="raça_pet">Raça:</label>
-                    <input type="text" id="raça_pet" class="form-control" th:field="${agendar.raça_pet}" />
+                    <input type="text" id="raça_pet" class="form-control" th:required="required" th:field="${agendar.raça_pet}" />
                 </div>
                         
                 <p class="mt-3">Detalhes</p>
                             
                 <div class="form-group col-sm-4 mt-1">
                     <label for="nome">Seu Nome:</label>
-                    <input type="text" id="nome" class="form-control" th:field="${agendar.nome}" />
+                    <input type="text" id="nome" class="form-control" th:required="required" th:field="${agendar.nome}" />
                 </div>
 
                 <div class="form-group col-sm-4 mt-1">
                     <label for="telefone">Telefone:</label>
-                    <input type="text" id="telefone" class="form-control" th:field="${agendar.telefone}" />
+                    <input type="text" id="telefone" class="form-control" th:required="required" th:field="${agendar.telefone}" />
                 </div>
                 
                 <div class="form-group col-sm-4 mt-1">
                     <label for="data">Data:</label>
-                    <input type="date" id="data" class="form-control" th:field="${agendar.data}" />
+                    <input type="date" id="data" class="form-control" th:required="required" th:field="${agendar.data}" />
                 </div>
                 
                 <div class="form-group col-sm-2 mt-3">
                     <label for="horario">Horário:</label>
-                    <input type="time" id="horario" class="form-control" th:field="${agendar.horario}" />
+                    <input type="time" id="horario" class="form-control" th:required="required" th:field="${agendar.horario}" />
                 </div>
                 
                 <div class="col-sm-4 mt-3 offset-sm-2">
